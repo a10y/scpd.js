@@ -1,7 +1,7 @@
 scpd.js
 =======
 
-scpd.js is a Tampermonkey script to allow for Youtube-like keybindings inside of
+scpd.js is a [Tampermonkey](http://tampermonkey.net/) script to allow for Youtube-like keybindings inside of
 Stanford's SCPD videos. I found this pretty useful, as when I often watch the
 videos split-screen with an iTerm taking notes, and found it distracting to
 remove my fingers from the keyboard to click back **exactly** 10 seconds to hear
@@ -10,7 +10,7 @@ something I missed.
 Installing
 ----------
 
-Install the Tampermonkey extension on a browser that supports it. I've only
+[Install the Tampermonkey extension](http://tampermonkey.net/) on a browser that supports it. I've only
 tested it on Chrome, so if you find issues on other platforms let me know!
 
 1. Go to **Utilities**
