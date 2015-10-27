@@ -10,7 +10,8 @@ something I missed.
 Installing
 ----------
 
-[Install the Tampermonkey extension](http://tampermonkey.net/) on a browser that supports it. I've only
+<a href="http://tampermonkey.net/" target="_blank">Install the Tampermonkey extension</a>
+on a browser that supports it. I've only
 tested it on Chrome, so if you find issues on other platforms let me know!
 
 1. Go to **Utilities**
