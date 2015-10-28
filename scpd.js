@@ -9,8 +9,6 @@
 // @grant        none
 // ==/UserScript==
 
-var paused = false;
-
 document.onkeydown = function (key){
     var video = document.getElementsByTagName("video")[0]; //lecture video element
 
