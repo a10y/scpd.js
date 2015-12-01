@@ -41,7 +41,7 @@ document.onkeydown = function (key){
     if (key.which == 68) // D - Volume down
         video.volume = Math.max(0.0, video.volume - 0.05);
     if (key.which == 77) // M - Toggle mute
-        v.muted = !v.muted;
+        video.muted = !video.muted;
 }
 
 function getSecondsFromTime(timeStr){
