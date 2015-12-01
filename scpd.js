@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube SCPD Shortcuts
 // @namespace    http://aduffy.org
-// @version      0.2.0
+// @version      0.2.1
 // @description  Adds YT-like keyboard shortcuts for SCPD videos (Stanford).
 // @author       Andrew Duffy <root@aduffy.org>
 // @match        https://mvideox.stanford.edu/*
@@ -34,6 +34,14 @@ document.onkeydown = function (key){
     /* Jump to time */
     if (key.which == 71) // g - Jump to time
         video.currentTime = getSecondsFromTime(prompt("Seek to Time (in seconds): "));
+
+    /* Volume control */
+    if (key.which == 85) // U - Volume up
+        video.volume = Math.min(1.0, video.volume + 0.05);
+    if (key.which == 68) // D - Volume down
+        video.volume = Math.max(0.0, video.volume - 0.05);
+    if (key.which == 77) // M - Toggle mute
+        v.muted = !v.muted;
 }
 
 function getSecondsFromTime(timeStr){
